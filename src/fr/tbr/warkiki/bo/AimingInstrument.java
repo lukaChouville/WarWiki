@@ -40,10 +40,10 @@ public class AimingInstrument {
 	}
 	// Methode
 	public String toString() {
-		StringBuilder Sb = new StringBuilder("AimingInstruments : Name ='").append(this.name);
+		StringBuilder Sb = new StringBuilder("AimingInstrument [ Name ='").append(this.name);
 		Sb.append("' Range ='").append(this.range);
 		Sb.append("'Zoom ='").append(this.zoom);
-		Sb.append("'");
+		Sb.append("' ]");
 		return Sb.toString();
 	}
 }
