@@ -36,10 +36,10 @@ public class Canon {
 	}
 // Methode
 	public String toString() {
-		StringBuilder Sb = new StringBuilder("Canon [ name ='").append(this.name);
-		Sb.append("' caliber ='").append(this.caliber);
-		Sb.append("' Lenght ='").append(this.lenght);
-		Sb.append("' ]");
+		StringBuilder Sb = new StringBuilder("Canon [ name ='").append(this.name)
+				.append("' caliber ='").append(this.caliber)
+				.append("' Lenght ='").append(this.lenght)
+				.append("' ]");
 		return Sb.toString();
 	}
 }
